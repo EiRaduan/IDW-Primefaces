@@ -29,10 +29,10 @@ public class ProdutoBean {
         this.produto = produto;
     }
     
-    public List<Produto> getList(){
+    public List<Produto> getLista(){
         if(this.lista == null){
             ProdutoRN produtoRN = new ProdutoRN();
-            this.lista = produtoRN.listar();
+            this.lista = produtoRN.lista();
         }
         return this.lista;
     }

@@ -18,8 +18,8 @@ public class ProdutoRN {
         this.produtoDAO = DAOFactory.criarProdutoDAO();
     }
     
-    public List<Produto> listar(){
-        return this.produtoDAO.listar();
+    public List<Produto> lista(){
+        return this.produtoDAO.lista();
     }
     
     public void salvar(Produto produto){

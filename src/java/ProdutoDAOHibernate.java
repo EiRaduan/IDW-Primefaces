@@ -18,7 +18,7 @@ public class ProdutoDAOHibernate implements ProdutoDAO{
        this.session = session;
    }
    
-   public List<Produto> listar(){
+   public List<Produto> lista(){
        return this.session.createCriteria(Produto.class).list();
    }
    

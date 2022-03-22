@@ -102,14 +102,13 @@ and open the template in the editor.
                     />
                     <p:outputLabel for="preco" value="Preço: "/>
                     <p:inputText 
-                        id="preco" 
-                        label="R$ 0,00" 
+                        id="preco"  
                         value="#{produtoBean.produto.preco}" 
                         size="20"
                         required="true"
                         requiredMessage="Por favor insira o valor do produto!"
                     >
-                        <f:convertNumber type="currency" minFractionDigits="2" maxFractionDigits="2"/>
+                        <f:convertNumber minFractionDigits="2" maxFractionDigits="2"/>
                     </p:inputText>
                 </p:panelGrid>
                 <br/>

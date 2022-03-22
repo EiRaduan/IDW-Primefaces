@@ -11,7 +11,7 @@ import java.util.List;
  * @author saimor
  */
 public interface ProdutoDAO {
-    public List<Produto> listar();
+    public List<Produto> lista();
     
     public void salvar(Produto produto);
     

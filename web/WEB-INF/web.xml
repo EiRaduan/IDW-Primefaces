@@ -14,7 +14,7 @@
     </context-param>
     <filter>
         <filter-name>conexaoFilter</filter-name>
-        <filter-class>web.filter.ConexaoHibernateFilter</filter-class>
+        <filter-class>ConexaoHibernateFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>conexaoFilter</filter-name>
