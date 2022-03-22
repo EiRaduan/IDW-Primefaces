@@ -14,17 +14,17 @@
                         <td>
                             <!-- TA DANDO ERRO, ARQUIVO PRODUTO N EXISTE -->
                             <p:menuButton value="Cadastrar">
-                                <p:menuitem value="Produto" url="/Logado/produto">
+                                <p:menuitem value="Produto" url="/Logado/produto.xhtml">
                                 </p:menuitem>
                             </p:menuButton>
                         </td>
                         <td align="left">
                             <sec:ifAnyGranted roles="ROLE_ADMINISTRADOR">
-                                <h:commandLink action="/Admin/principal" title="Administrativo">
+                                <h:commandLink action="/Admin/principal.xhtml" title="Administrativo">
                                     <h:graphicImage library="imagens" name="administrativo16.png"/>
                                 </h:commandLink>
                             </sec:ifAnyGranted>
-                            <h:commandLink action="/Logado/principal" title="Principal">
+                            <h:commandLink action="/Logado/principal.xhtml" title="Principal">
                                 <h:graphicImage library="imagens" name="principal16.png"/>
                             </h:commandLink>
                             <h:outputLink 
