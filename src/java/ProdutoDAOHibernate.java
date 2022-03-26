@@ -31,6 +31,7 @@ public class ProdutoDAOHibernate implements ProdutoDAO{
        this.session.delete(produto);
    }
    */
+   @Override
    public List<Produto> lista(){
        this.session.beginTransaction();
         //List<Produto> lista = this.session.createCriteria(Produto.class).list();
@@ -39,20 +40,23 @@ public class ProdutoDAOHibernate implements ProdutoDAO{
        //return lista;
    }
    
+   @Override
    public void salvar(Produto produto){
        this.session.beginTransaction();
        this.session.saveOrUpdate(produto);
        this.session.getTransaction().commit();
    }
    
+   @Override
    public void excluir(Produto produto){
        this.session.beginTransaction();
        this.session.delete(produto);
        this.session.getTransaction().commit();
         //this.session.delete(produto);
    }  
-   
+   @Override
     public void atualizar(Produto produto) {
         this.session.merge(produto);
     }
+
 }
