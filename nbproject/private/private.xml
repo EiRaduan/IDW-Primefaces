@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/saimor/NetBeansProjects/Primefaces/src/java/ProdutoRN.java</file>
+            <file>file:/home/saimor/NetBeansProjects/Primefaces/src/java/ProdutoBean.java</file>
+            <file>file:/home/saimor/NetBeansProjects/Primefaces/src/java/ProdutoDAOHibernate.java</file>
+            <file>file:/home/saimor/NetBeansProjects/Primefaces/src/java/ConexaoHibernateFilter.java</file>
+            <file>file:/home/saimor/NetBeansProjects/Primefaces/web/Logado/produto.xhtml</file>
+            <file>file:/home/saimor/NetBeansProjects/Primefaces/src/java/ProdutoDAO.java</file>
+            <file>file:/home/saimor/NetBeansProjects/Primefaces/web/Logado/menu_sistema.xhtml</file>
+            <file>file:/home/saimor/NetBeansProjects/Primefaces/src/java/hibernate.cfg.xml</file>
+            <file>file:/home/saimor/NetBeansProjects/Primefaces/web/WEB-INF/web.xml</file>
+        </group>
+    </open-files>
+</project-private>

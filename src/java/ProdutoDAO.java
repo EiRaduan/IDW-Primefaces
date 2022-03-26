@@ -15,5 +15,7 @@ public interface ProdutoDAO {
     
     public void salvar(Produto produto);
     
-    public void excluir(Produto produto);        
+    public void excluir(Produto produto); 
+    
+    public void atualzar(Produto produto);
 }

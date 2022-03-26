@@ -46,6 +46,12 @@ and open the template in the editor.
                         </h:outputText>
                     </p:column>
                     
+                    <!-- Tipo -->
+                    <p:column filterBy="tipo">
+                        <f:facet name="tipo">Tipo</f:facet>
+                        #{produto.tipo}
+                    </p:column>
+                    
                     <!-- Editar -->
                     <sec:ifAnyGranted roles="ROLE_ADMINISTRADOR, ROLE_USUARIOVIP">
                         <p:column>
@@ -110,6 +116,15 @@ and open the template in the editor.
                     >
                         <f:convertNumber minFractionDigits="2" maxFractionDigits="2"/>
                     </p:inputText>
+                    <p:outputLabel for="tipo" value="Tipo: "/>
+                    <p:inputText 
+                        id="tipo" 
+                        label="Tipo do produto" 
+                        value="#{produtoBean.produto.tipo}" 
+                        maxlength="100"
+                        required="true"
+                        requiredMessage="Por favor insira um tipo para o seu produto!"
+                    />
                 </p:panelGrid>
                 <br/>
                 
